@@ -1,3 +1,8 @@
+/*function myReplace(arr, oldItem,newItem) {
+arr.splice((arr.indexOf(oldItem)),1,newItem)
+  
+    return arr;
+  }*/
 function myReplace(arr, oldItem,newItem) {
   let index = null;
   for (i = 0; i < arr.length; i++) {
